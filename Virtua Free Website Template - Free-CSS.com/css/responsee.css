@@ -195,7 +195,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 	  float:right;	
   }
   .top-nav li:hover > ul {
-	  display:block;
+	  display:none;
 	  z-index:10;
   }  
   .top-nav li:hover > ul ul {

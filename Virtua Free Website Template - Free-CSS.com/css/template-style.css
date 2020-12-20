@@ -1,5 +1,31 @@
 /* Default Template Styles */
 
+input[type=checkbox],input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+*,:after,:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
 
 /*==============================================
 03. SOCIAL ICONS CSS
@@ -42,11 +68,27 @@
 }
 
 .card-container .card-image {
-  height: 400px;
+  height: 900px;
   margin-top: -20%;
   background-size: cover;
   background-repeat: no-repeat
 }
+/*.section-container {
+  padding: 60px 0;
+}*/
+.card {
+  background: #fff;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/*
+@media (min-width:992px) {
+  .card {
+    padding: 5rem;
+  }
+}*/
 
 .card-shadow {
   box-shadow: 0 2px 2px rgba(0, 0, 0, .1), 0 4px 4px rgba(0, 0, 0, .05), 0 8px 8px rgba(0, 0, 0, .05), 0 16px 16px rgba(0, 0, 0, .05), 0 32px 32px rgba(0, 0, 0, .05)
