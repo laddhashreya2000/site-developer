@@ -1977,4 +1977,47 @@ a.tab-label.active-btn {
   .padding-3x {
     padding: 30px !important;
   }
+  /* @media only screen and (max-width: 1023px) */
+  .ifc-stats-wrapper {
+      flex-direction: column;
+  }
+
+  .ifc-stats, .ifc-stats-wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+  .ifc-stats-wrapper {
+      width: 100%;
+      max-width: 1180px;
+      padding: 0 15px;
+      box-sizing: border-box;
+      margin: 50px auto 0;
+  }
+  .ifc-stats {
+      width: 100%;
+      margin: 0 0 30px;
+  }
+  .ifc-stats, .ifc-stats-wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+  .ifc-stats .stats-item {
+      display: flex;
+      align-items: center;
+  }
+  .ifc-stats .stats-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .ifc-msg {
+      width: 100%;
+      border-radius: 4px;
+      background-color: #008c8c;
+      padding: 15px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+  }
 } 
