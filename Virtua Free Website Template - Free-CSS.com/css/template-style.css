@@ -1484,6 +1484,10 @@ ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .
 .top-nav ul ul a {
   color: #eee;
 }
+.top-nav ul li:hover ul{
+  display: block;
+  visibility: visible;
+}
 
 .fixed-side-navbar {
   position: fixed;
