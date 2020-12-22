@@ -27,6 +27,15 @@ hr {
   height: 0;
 }
 
+/*@media width: */
+@media screen and (max-width:768px) {
+  .fixed-side-navbar {
+    display: block;
+    visibility: visible;
+  }
+  
+}
+
 /*div.arya:hover {
   background-color: #00000;
 
@@ -1491,6 +1500,8 @@ ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .
 
 .fixed-side-navbar {
   position: fixed;
+  /*display: none;*/
+  visibility: hidden;
   top: 50%;
   right: 0;
   z-index: 99999;
