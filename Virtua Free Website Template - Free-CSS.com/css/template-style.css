@@ -7,10 +7,12 @@
 .list-unstyled li {
   line-height: 1.58em;
 }
-
-
-
-
+.parallelogram {
+  width: 300px;
+  height: 90px;
+  transform: skew(10deg);
+  background: #ffff;
+}
 
 
 input[type=checkbox],input[type=radio] {
