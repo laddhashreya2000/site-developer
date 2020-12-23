@@ -1,5 +1,16 @@
 /* Default Template Styles */
 
+.list-inline,.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-unstyled li {
+  line-height: 1.58em;
+}
+
+
+
+
 
 
 input[type=checkbox],input[type=radio] {
