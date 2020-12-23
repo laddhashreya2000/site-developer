@@ -348,7 +348,7 @@ hr {
 }
 
 .card-container .card-image {
-  height: 900px;
+  height: 300px;
   margin-top: -20%;
   background-size: cover;
   background-repeat: no-repeat
@@ -2838,12 +2838,9 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 .section-container {
   padding: 60px 0
 }
-.section-container-spacer {
+/* .section-container-spacer {
   margin-bottom: 30px
-}
-.section-container-spacer {
-  margin-bottom: 30px
-}
+} */
 .hero-full-container {
   padding: 20% 0
 }
