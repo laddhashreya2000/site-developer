@@ -374,6 +374,7 @@ hr {
 .card {
   background: #fff;
   padding: 2rem;
+  /*margin-left: 20px;*/
   position: relative;
   z-index: 1;
 }
