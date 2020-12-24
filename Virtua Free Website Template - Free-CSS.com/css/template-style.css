@@ -14,6 +14,33 @@
   background: #ffff;
 }
 
+.img-info{
+    background-color: grey;
+    color: white;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*align-content: center;*/
+    /*height: 300px;*/
+}
+
+.img-info h2{
+    margin-top: 120px;
+}
+
+.arya {
+  position: relative;
+}
+.arya:hover .img-info{
+    opacity: 1;
+    text-align: center;
+    border-radius: 50%;
+}
 
 input[type=checkbox],input[type=radio] {
   box-sizing: border-box;
