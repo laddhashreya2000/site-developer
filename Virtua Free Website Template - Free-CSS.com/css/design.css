@@ -44,7 +44,7 @@
 }
  .container .card:hover .card__head {
 	 text-align: center;
-	 top: calc(100% - 2em);
+	 top: calc(100% - 4em);
 	 color: white;
 	 background: rgba(0, 0, 0, 0.5);
 	 font-size: 2em;
