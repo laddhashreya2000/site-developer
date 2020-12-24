@@ -154,7 +154,11 @@
     <main role="main">
       <article>    
         <!-- Header -->
-        <header class="section background-image text-center" style="background-image:url(img/hero.jpg)">
+         <header class="section background-image text-center" style="background: black;
+       background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(195, 55, 100, 0.8)), url(img/hero.jpg);
+    background-size: cover;">
+       <!--  <header class="section background-image text-center" style="background-image:url(img/hero.jpg)"> -->
           <h1 class="animated-element slow text-extra-thin text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-30 margin-top-130">
             Impact
           </h1>
