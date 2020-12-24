@@ -99,7 +99,8 @@ p {
   font-size: .85em;
   color: #fff;
   padding: 1.1em 1em 0;
-  background: #345d88;
+  /*background: #345d88;*/
+  background-color: #322B2B;
 }
 /* ---- Float clearfix ---- */
 

@@ -18,7 +18,7 @@
 
 .flip-card:hover .flip-card-inner {
   transition: 2.4s;
-  transform: rotateY(180deg) rotate(360deg);
+  transform: rotateY(180deg);
   /*transform: rotate(360deg);*/
 }
 
