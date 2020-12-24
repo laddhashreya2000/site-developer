@@ -1344,8 +1344,8 @@ a.text-tag:link {
   padding: 6px 9px;
 }
 a.text-tag:link:hover {
-  background: #454545 none repeat scroll 0 0;
-  border: 1px solid #454545;
+  background: #322B2B none repeat scroll 0 0;
+  border: 1px solid #322B2B;
   color: #fff;
   transition: all 0.20s linear 0s;
   -o-transition: all 0.20s linear 0s;
@@ -1408,7 +1408,7 @@ td {border-right:1px solid #fff;}
 .primary-color-white .background-primary-hightlight .top-nav .active-item > a, .primary-color-white .background-primary-hightlight .top-nav li a:hover, .primary-color-white .background-primary-hightlight .aside-nav li a:hover, 
 .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
   background: #fff none repeat scroll 0 0;
-  color: #454545;
+  color: #322B2B;
 }
 .background-primary-hightlight .top-nav .active-item > a, .background-primary-hightlight .top-nav li a:hover, .background-primary-hightlight .aside-nav li a:hover, 
 .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited,
@@ -1421,7 +1421,7 @@ td {border-right:1px solid #fff;}
 .background-dark-hightlight .aside-nav > ul > li.active-item > a:link, .background-dark-hightlight .aside-nav > ul > li.active-item > a:visited,
 .primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover, 
 .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
-  background: #454545 none repeat scroll 0 0;
+  background: #322B2B none repeat scroll 0 0;
   color: #fff;
 }
 .background-none {
@@ -1485,7 +1485,7 @@ video {
 
 /* Top Nav */
 .top-nav li a, .background-white .top-nav li a {
-  color: #454545;
+  color: #322B2B;
   font-size: 0.85rem;
   padding: 0.7em 1.25em;
 }
@@ -1498,7 +1498,7 @@ nav {
   background-color: #0000;
 }  
 .top-nav ul ul {
-  background: #454545 none repeat scroll 0 0;
+  background: #322B2B none repeat scroll 0 0;
 }
 .top-nav li ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -1507,7 +1507,7 @@ nav {
   border-bottom: 0;
 }
 .top-nav li ul li a, .background-white .top-nav li ul li a, .top-nav .active-item li a {
-  background: #454545 none repeat scroll 0 0;
+  background: #322B2B none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .aside-submenu > a::after, ul.chevron .aside-sub-submenu > a::after {
@@ -1695,7 +1695,7 @@ aside.aside-left {
 }
 .aside-nav.background-dark-hightlight > ul > li > a:hover, .aside-nav.background-dark-hightlight > ul > li.active-item > a:link, .aside-nav.background-dark-hightlight > ul > li.active-item > a:visited,
 .primary-color-dark .aside-nav.background-primary-hightlight > ul > li > a:hover, .primary-color-dark .aside-nav.background-primary-hightlight > ul > li.active-item > a:link, .primary-color-dark .aside-nav.background-primary-hightlight > ul > li.active-item > a:visited {
-  border-color: #454545;
+  border-color: #322B2B;
 }
 
 /* Font colors */
@@ -1710,7 +1710,7 @@ aside.aside-left {
 .background-white .h1, .background-white .h2, .background-white .h3, .background-white .h4, .background-white .h5, .background-white .h6, 
 .primary-color-white .background-primary h1, .primary-color-white .background-primary h2, .primary-color-white .background-primary h3, .primary-color-white .background-primary h4, .primary-color-white .background-primary h5, .primary-color-white .background-primary h6,
 .primary-color-white .background-primary .h1, .primary-color-white .background-primary .h2, .primary-color-white .background-primary .h3, .primary-color-white .background-primary .h4, .primary-color-white .background-primary .h5, .primary-color-white .background-primary .h6 {
-  color: #454545;
+  color: #322B2B;
 } 
 .image-hover-overlay-content *,
 .background-primary, .background-primary p, a.background-primary, a.background-primary:visited, a.background-primary:link, .background-primary a, .background-primary a:link, .background-primary a:visited, .background-primary a:hover, .background-primary a:active, 
@@ -1734,7 +1734,7 @@ aside.aside-left {
   color: #28a5df !important;
 }
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
-  color: #454545 !important;
+  color: #322B2B !important;
 } 
 .text-primary-hover, .text-white-hover, .text-primary, .text-dark-hover {
   transition: color 0.20s linear 0s;
@@ -1750,7 +1750,7 @@ aside.aside-left {
   color: #28a5df !important;
 }
 .text-dark-hover:hover, .primary-color-dark .text-primary-hover:hover {
-  color: #454545 !important;
+  color: #322B2B !important;
 } 
 
 /* Background Colors */
@@ -1761,7 +1761,7 @@ aside.aside-left {
   background-color: #28a5df !important; 
 }
 .background-dark, .primary-color-dark .background-primary {
-  background-color: #454545 !important; 
+  background-color: #322B2B !important; 
 }
 .background-grey {
   background-color: #f5f5f5 !important;
@@ -1819,7 +1819,7 @@ aside.aside-left {
 .button.button-white-stroke:hover, a.button.button-white-stroke:hover,
 .primary-color-white .button.button-primary-stroke:hover, .primary-color-white a.button.button-primary-stroke:hover {
   background: #fff none repeat scroll 0 0;
-  color: #454545;
+  color: #322B2B;
 }
 .button.button-primary-stroke, a.button.button-primary-stroke, a.button.button-primary-stroke:link, a.button.button-primary-stroke:visited,
 .primary-color-primary .button.button-primary-stroke, .primary-color-primary a.button.button-primary-stroke, .primary-color-primary a.button.button-primary-stroke:link, .primary-color-primary a.button.button-primary-stroke:visited {
@@ -1836,13 +1836,13 @@ aside.aside-left {
 .button.button-dark-stroke, a.button.button-dark-stroke, a.button.button-dark-stroke:link, a.button.button-dark-stroke:visited,
 .primary-color-dark .button.button-primary-stroke, .primary-color-dark a.button.button-primary-stroke, .primary-color-dark a.button.button-primary-stroke:link, .primary-color-dark a.button.button-primary-stroke:visited {
   background: none;
-  border: 1px solid #454545;
+  border: 1px solid #322B2B;
   box-shadow: none;
-  color: #454545;
+  color: #322B2B;
 }
 .button.button-dark-stroke:hover, a.button.button-dark-stroke:hover,
 .primary-color-dark .button.button-primary-stroke:hover, .primary-color-dark a.button.button-primary-stroke:hover {
-  background: #454545 none repeat scroll 0 0;
+  background: #322B2B none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -2168,18 +2168,18 @@ tbody.collapse.in {
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
-  background: #454545 none repeat scroll 0 0;
+  background: #322B2B none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #454545;
+  color: #322B2B;
 }
 .background-white-hightlight a.tab-label.active-btn, .background-white-hightlight a.tab-label:hover,
 .primary-color-white .background-primary-hightlight a.tab-label.active-btn, .primary-color-white .background-primary-hightlight a.tab-label:hover {
   background: #fff none repeat scroll 0 0;
-  color: #454545;
+  color: #322B2B;
 }
 .background-primary-hightlight a.tab-label.active-btn, .background-primary-hightlight a.tab-label:hover,
 .primary-color-primary .background-primary-hightlight a.tab-label.active-btn, .primary-color-primary .background-primary-hightlight a.tab-label:hover {
@@ -2189,7 +2189,7 @@ a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 
 .background-dark-hightlight a.tab-label.active-btn, .background-dark-hightlight a.tab-label:hover,
 .primary-color-dark .background-primary-hightlight a.tab-label.active-btn, .primary-color-dark .background-primary-hightlight a.tab-label:hover {
-  background: #454545 none repeat scroll 0 0;
+  background: #322B2B none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -2477,14 +2477,14 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       vertical-align: middle;
     }
     .nav-text::after {
-      color: #454545;
+      color: #322B2B;
       display: inline-block;
       font-size: 3rem;
       margin-left: 0;
       margin-top: 30px;
     }
     .top-nav li a, .background-white .top-nav li a {
-      background: #454545 none repeat scroll 0 0;
+      background: #322B2B none repeat scroll 0 0;
       color: #fff;
       font-size: 1.1em;
       padding: 1em;
@@ -2964,7 +2964,7 @@ h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Poppins";
 }
 .background-grey h1, .background-grey h2, .background-grey h3, .background-grey h4, .background-grey h5, .background-grey h6, .background-grey .h1, .background-grey .h2, .background-grey .h3, .background-grey .h4, .background-grey .h5, .background-grey .h6 {
-  color: #454545;
+  color: #322B2B;
 }
 .text-extra-thin {font-weight: 100;}
 .text-thin {font-weight: 200;}
@@ -2977,25 +2977,25 @@ b, strong, .text-strong {font-weight: 700;}
   padding-right: 10px;
   padding-top: 10px;
   font-weight: 700;
-  color: #454545;
+  color: #322B2B;
 }
 
 blockquote:before {
   display:none;
 }
 blockquote {
-  border-left: 2px dotted #454545;
+  border-left: 2px dotted #322B2B;
   padding: 30px;
   margin: 40px 0;
-  color: #454545;
-  border-right: 2px dotted #454545;
+  color: #322B2B;
+  border-right: 2px dotted #322B2B;
 }
 blockquote cite {
   margin-top: 10px;
   color: #999;
 }
 hr.break {
-  border-top: 2px dotted #454545;
+  border-top: 2px dotted #322B2B;
   background: none!important;
   background-color: none!important;
 }  
@@ -3007,13 +3007,13 @@ hr.break-small.break-center {
 hr.break-small {
   background: none!important;
   background-color: none!important;
-  border-top: 2px dotted #454545;
+  border-top: 2px dotted #322B2B;
   width: 90px;
 }
 hr.break {
   background: none!important;
   background-color: none!important;
-  border-top: 2px dotted #454545;
+  border-top: 2px dotted #322B2B;
 }
 hr.break.background-white, .primary-color-white hr.break-small.background-primary {
   background: none!important;
@@ -3028,7 +3028,7 @@ hr.break.background-primary, .primary-color-primary hr.break.background-primary 
 hr.break.background-dark, .primary-color-dark hr.break.background-primary {
   background: none!important;
   background-color: none!important;
-  border-top: 2px dotted #454545;
+  border-top: 2px dotted #322B2B;
 }
 
 header.position-absolute {
@@ -3281,7 +3281,7 @@ a.tab-label.active-btn {
     display:block;
   }
   .nav-text::after {
-    color: #454545;
+    color: #322B2B;
   }
   .nav-text {
     margin-right: 0;
@@ -3291,7 +3291,7 @@ a.tab-label.active-btn {
     z-index: 10;
   }
   .fixed .nav-text::after {
-    color: #454545;
+    color: #322B2B;
   }
   .top-nav li a,.top-nav li ul li a {
     border-top: 1px solid #f5f5f5;
