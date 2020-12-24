@@ -1489,6 +1489,7 @@ nav {
   padding: 1.7rem 0;
   position: relative;
   z-index: 2;
+  background-color: #0000;
 }  
 .top-nav ul ul {
   background: #454545 none repeat scroll 0 0;
