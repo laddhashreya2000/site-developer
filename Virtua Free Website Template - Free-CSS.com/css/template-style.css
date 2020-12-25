@@ -105,11 +105,12 @@
     }
 }
 
+
 @media screen and (max-height: 769px){
 
   
 
-    .st h1{
+  .st h1{
     font-size: 15px;
   }
 
@@ -119,13 +120,6 @@
   .st p{
     font-size: 7px;
   }
-  .st .tt{
-    /*margin-right: : -80px;*/
-    /*margin-left: -180px;*/
-    padding-right: 6.25rem;
-  }
-
-  
 
   
 }
