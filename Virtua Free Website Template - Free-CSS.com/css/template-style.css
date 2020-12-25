@@ -58,7 +58,15 @@
     bottom: 0;
     left: 0;
     right: 0;
+    /*font-size: 10px;*/
 }
+
+@media screen and (max-height: 768px){
+      .img-cause p{
+      font-size: 10px;
+    }
+}
+
 
 .arya:hover .img-cause{
   opacity: 1;
@@ -239,7 +247,7 @@ hr {
 
 .carousel-control:focus,.carousel-control:hover {
   outline: 0;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   opacity: .9;
   filter: alpha(opacity=90);
@@ -917,7 +925,7 @@ input[type=search] {
 }
 
 .btn.focus,.btn:focus,.btn:hover {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -953,13 +961,13 @@ a.btn.disabled,fieldset[disabled] a.btn {
 }
 
 .btn-default.active,.btn-default:active,.btn-default:hover,.open>.btn-default.dropdown-toggle {
-  color: #fff;
+  color: #000000;
   background-color: transparent;
   border-color: #e0e0e0;
 }
 
 .btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.btn-default.dropdown-toggle.focus,.open>.btn-default.dropdown-toggle:focus,.open>.btn-default.dropdown-toggle:hover {
-  color: #fff;
+  color: #000000;
   background-color: transparent;
   border-color: #bfbfbf;
 }
