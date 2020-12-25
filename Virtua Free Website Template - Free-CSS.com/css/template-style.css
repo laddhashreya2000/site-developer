@@ -1597,7 +1597,7 @@ ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .
   position: fixed;
   /*display: none;*/
   /*visibility: hidden;*/
-  top: 50%;
+  top: 40%;
   right: 0;
   z-index: 99999;
   margin-top: -100px;
