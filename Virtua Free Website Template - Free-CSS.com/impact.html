@@ -20,13 +20,13 @@
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
      <style type="text/css">
-       body {
+       /*body {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
    font-family: sans-serif;
-}
+}*/
  h1 {
    color: coral;
 }
@@ -35,7 +35,7 @@
    column-gap: 1.5rem;
    width: 90%;
    margin: 0 auto;
-   margin-bottom: 0;
+   margin-bottom: -120px;
 }
  .grid-container div {
    width: 150px;
@@ -87,7 +87,7 @@
     <!-- HEADER -->
     <header role="banner" class="position-absolute">    
       <!-- Top Navigation -->
-      <nav class="background-primary-dott full-width sticky" style="background-color: #E52D87; height: 70px;">          
+      <nav class="background-primary-dott full-width sticky" style="background-color: #E52D87; height: 70px; position: fixed;">          
         <div class="top-nav" style="margin-top: -45px;"> 
           <!-- mobile version logo -->              
           <div class="logo hide-l hide-xl hide-xxl">
@@ -228,16 +228,16 @@
       </section>
 
         <!-- Section 1 -->
-        <section class="section-small-padding background-white">      
+        <section class="section-small-padding" style="background-color: #999999;">      
           <!-- <h1>The Purest of Doggos</h1> -->
           <!-- h2 class="text-dark text-size-50 text-m-size-40">OUR <b>Gallery</b></h2> -->
           <div class="line text-center">
-            <p class="text-primary text-size-20">Some cherishable moments in our journey</p>
             <h2 class="text-dark text-size-50 text-m-size-40">Photo <b>Gallery</b></h2>
-          <i class="icon-chevron_down text-primary margin-bottom-20 text-size-20"></i> 
+            <p class="text-primary text-size-20 text-dark margin-bottom-20">Some cherishable moments in our journey</p>
+          <!-- <i class="icon-chevron_down text-primary margin-bottom-20 text-size-20"></i>  -->
         </div> 
         
-<div class="grid-container">
+<div class="grid-container text-dark">
   <div>
     <img class='grid-item grid-item-1' src='img/ed4.jpg' alt=''>
     <p>"Mission education"</p>
@@ -294,7 +294,7 @@
             <!-- Left Column -->
             <div class="s-12 m-12 l-4 text-right"> 
               <div class="card-container">
-                <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" style="text-align: center;">
+                <div class="card2 card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" style="text-align: center;">
                 <!-- <i class="icon-sli-paper-plane text-primary text-size-40 margin-bottom-20"></i> -->
                 <!-- <img src="img/img-02.jpg" > -->
                 <!-- <div style="align-content: center;">  -->
@@ -313,7 +313,7 @@
             <!-- Right Column -->
             <div class="s-12 m-12 l-4"> 
                <div class="card-container">
-                <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" style="text-align: center;">
+                <div class="card2 card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" style="text-align: center;">
                 <!-- <i class="icon-sli-paper-plane text-primary text-size-40 margin-bottom-20"></i> -->
                 <!-- <img src="img/img-02.jpg" > -->
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/V3_xeVtbcSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -329,7 +329,7 @@
             </div> 
             <div class="s-12 m-12 l-4"> 
                <div class="card-container">
-                <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" style="text-align: center;">
+                <div class="card2 card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" style="text-align: center;">
                 <!-- <i class="icon-sli-paper-plane text-primary text-size-40 margin-bottom-20"></i> -->
                 <!-- <img src="img/img-02.jpg" > -->
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/sCPREA5NFTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

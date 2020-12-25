@@ -439,6 +439,23 @@ hr {
   transform: scale(1.2);
 }
 
+
+.card2 {
+  background: #fff;
+  padding: 2rem;
+  /*margin-left: 20px;*/
+  position: relative;
+  z-index: 1;
+}
+
+/*.card2:hover {
+  background: #bac6fa;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+  transform: scale(1.2);
+}
+*/
 /*
 @media (min-width:992px) {
   .card {
